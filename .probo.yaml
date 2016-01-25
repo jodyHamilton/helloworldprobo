@@ -1,0 +1,3 @@
+steps:
+- name: Example test
+  command: 'echo "Hello World on hello world!"'
