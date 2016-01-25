@@ -1,3 +1,5 @@
 steps:
+- name: Link docroot to codebase
+  command: 'ln -s $SRC_DIR /var/www/html'
 - name: Example test
   command: 'echo "Hello World on hello world!"'
